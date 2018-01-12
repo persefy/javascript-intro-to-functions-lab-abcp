@@ -14,12 +14,8 @@ function logWhisper(string) {
   console.log(string.toLowerCase()) 
 }
 
-var uppercase = string.toUpperCase()
- 
-uppercase.toUpperCase() === uppercase // true
-
 function sayHiToGrandma(string) {
-  if(string === string.toUpperCase) {
+  if(string === string.toUpperCase()) {
     return "YES INDEED!"
   }
 }
